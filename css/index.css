@@ -1,0 +1,100 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  text-align: left;
+  border-bottom: solid;
+  border-color: green;
+  background-color: #fbcb04;
+}
+
+.texto-principal {
+  position: absolute;
+  top: 65px;
+  right: 650px;
+  font-size: 2cm;
+  color: green;
+  font-style: unset;
+}
+
+.estados {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.estados li {
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  font-size: 1cm;
+  margin: 20px 50px;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.estados li h2 {
+  padding: 10px;
+}
+
+.estados li img {
+  width: 300px !important;
+  height: 150px !important;
+}
+
+.estados li:hover {
+  border-color: blue;
+}
+
+.estados li:active {
+  border-color: green;
+}
+
+.estados li:hover h2 {
+  font-size: 34px;
+}
+
+.estados h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.estados a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  box-sizing: border-box;
+  background: #fbcb04;
+  position: absolute;
+  bottom: 0;
+  height: 206px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  border-top: solid green;
+}
+
+footer div {
+  width: calc(100vw - 1000px);
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div p {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+footer div p:first-child {
+  font-size: 40px;
+  color: blue;
+  font-weight: bold;
+}
